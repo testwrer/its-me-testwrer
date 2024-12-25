@@ -1,0 +1,52 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #222;
+    color: #fff;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradient background */
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+#github-button {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+}
+
+#github-button:hover {
+    background-color: #333;
+}
+
+/* Parallax Effect */
+.parallax {
+    height: 500px;
+    background: url('path_to_your_image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    transform: scale(1.1);
+}
+
+/* Add other styles as needed */
